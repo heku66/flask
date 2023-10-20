@@ -1,15 +1,16 @@
 # flask
+#  
+python flask平台  
 
-python flask平台
+菜鸟不懂高版本兼容排查，目前使用的版本是：  
+```
+Flask==1.1.4  
+Flask-Login==0.5.0  
+markupsafe==2.0.1  
+```
 
-菜鸟不懂高版本兼容排查，目前使用的版本是：
-Flask==1.1.4
-Flask-Login==0.5.0
-markupsafe==2.0.1
-
-
-docker-compose.yml
-
+docker-compose.yml  
+```
 version: "3"
 services:
   flask:
@@ -21,5 +22,7 @@ services:
     volumes:
       - ./:/usr/src/app
     restart: always
+```
+在当前目录中放置启动文件init.py,然后启动容器。
 
-在当前目录中放置启动文件init.py
+
