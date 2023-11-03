@@ -10,6 +10,7 @@ Flask-Login==0.5.0
 markupsafe==2.0.1
 requests==2.31.0
 beautifulsoup4==4.10.0
+apscheduler==2.1.2
 ```
 
 docker-compose.yml  
