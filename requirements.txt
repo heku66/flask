@@ -1,6 +1,5 @@
 Flask==1.1.4
 Flask-Login==0.5.0
 markupsafe==2.0.1
-requests
-bs4
-urllib.parse
+requests==2.26.1
+beautifulsoup4==4.10.0
